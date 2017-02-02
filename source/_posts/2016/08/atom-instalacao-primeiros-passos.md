@@ -16,7 +16,7 @@ O Atom é um editor de texto open source indicado para desenvolvedores. Foi inic
 
 ## Instalação
 
-Uma das características deste editor é que ele é multiplataforma. Para Linux, o Atom é <a href="https://atom.io/" title="Site oficial do Atom" target="_blank">disponibilizado</a> em pacotes .deb e .rpm, além da possibilidade de instalação a partir dos fontes e contando com um excelente <a href="https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md" target="_blank">tutorial</a>.
+Uma das características deste editor é que ele é multiplataforma. Para **Linux**, o Atom é <a href="https://atom.io/" title="Site oficial do Atom" target="_blank">disponibilizado</a> em pacotes *.deb* e *.rpm*, além da possibilidade de instalação a partir dos fontes e contando com um excelente <a href="https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md" target="_blank">tutorial</a>.
 
 Com o pacote de sua distribuição baixado, basta entrar no diretório onde o mesmo se encontra e executar um dos comando abaixo de acordo com sua distro.
 
@@ -36,12 +36,12 @@ Com o pacote de sua distribuição baixado, basta entrar no diretório onde o me
 
 Por padrão, o Atom já vem como vários recursos uteis, entre eles temos:
 
-  * Integração com o Github;
-  * Gerenciador de pacotes;
-  * Syntax highlight;
-  * Live preview para arquivos Markdown;
-  * Divisão de Painéis (Split);
-  * Tree view para diretórios e arquivos.
+  * *Integração com o Github*;
+  * *Gerenciador de pacotes*;
+  * *Syntax highlight*;
+  * *Live preview para arquivos Markdown*;
+  * *Divisão de Painéis (Split)*;
+  * *Tree view para diretórios e arquivos*.
 
 <div style="text-align: center"><a href="/blog/atom-instalacao-primeiros-passos/atom-live-preview-md.png" target="_blank"><figure><img src="/blog/atom-instalacao-primeiros-passos/atom-live-preview-md.png" style="max-width: 100%" alt="Live Preview para Markdown" title="Live Preview para Markdown" /><figcaption class="text-center">Live Preview para Markdown.</figcaption></figure></a></div>
 
