@@ -4,8 +4,8 @@
 
 # Site
 title: Ramon Santos
-subtitle:
-description: Site pessoal de Ramon Santos.
+subtitle: Blog sobre desenvolvimento
+description: Blog sobre desenvolvimento, Linux e ferramentas.
 author: Ramon Santos
 language: pt
 timezone: America/Recife
@@ -67,6 +67,7 @@ pagination_dir: page
 theme: ruby-tuesday-theme
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:ramonsantos/ramonsantos.github.io.git
+  branch: master
