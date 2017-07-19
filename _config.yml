@@ -71,3 +71,16 @@ deploy:
   type: git
   repo: git@github.com:ramonsantos/ramonsantos.github.io.git
   branch: master
+
+# Minify
+asset_pipeline:
+  revisioning:
+    enable: true
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
