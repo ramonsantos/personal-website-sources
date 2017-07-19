@@ -75,7 +75,7 @@ deploy:
 # Minify
 asset_pipeline:
   revisioning:
-    enable: true
+    enable: false
   clean_css:
     enable: true
   uglify_js:
@@ -84,3 +84,6 @@ asset_pipeline:
     enable: true
   html_minifier:
     enable: true
+
+sitemap:
+  path: sitemap.xml
