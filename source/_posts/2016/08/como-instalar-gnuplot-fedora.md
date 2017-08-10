@@ -5,7 +5,7 @@ tags:
   - Fedora
   - Ferramentas Acadêmicas
 categories: Ferramentas
-description:
+description: Instalação do Gnuplot no fedora.
 ---
 
 Olá, pessoal!
@@ -31,7 +31,7 @@ Entrar no diretório do download:
 <p>Entrar no diretório descompactado:</p>
 
 <pre class="terminal">
-  $ cd gnuplot-5.0.3.
+  $ cd gnuplot-5.0.3
 </pre>
 
 Agora vamos para a instalação propriamente dita. Entre com os comandos abaixo:

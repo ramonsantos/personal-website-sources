@@ -15,7 +15,7 @@ Hoje eu vou mostrar como gerar uma chave SSH (SSH key).
 A primeira coisa a fazer é verificar se já existe uma chave SSH no sistema. Em geral, essas chaves ficam do diretório oculto “/home/USER/.ssh”, então execute o comando abaixo:
 
 <pre class="terminal">
-  $ ls ~/.shh
+  $ ls ~/.ssh
 </pre>
 
 Dado que o esse diretório está vazio, podemos gerar a chave com o seguinte comando:

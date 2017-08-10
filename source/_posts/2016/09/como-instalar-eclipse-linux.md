@@ -6,9 +6,12 @@ tags:
   - IDE
 categories: 'Ferramentas'
 date: 2016-09-06 21:54:37
-description:
+description: 
 ---
-Olá, pessoal!
+
+<div style="text-align: center; display:none">
+  <img src="/blog/como-instalar-eclipse-linux/eclipse.png" style="max-width: 100%" alt="Eclipse Linux" />
+</div>
 
 O <strong>[Eclipse](https://eclipse.org/)</strong> é uma excelente ferramenta, [open source](https://github.com/eclipse), para desenvolvimento de aplicações em <strong>Java</strong> e em outras linguagens. Neste artigo, será abordado a instalação desta ferramenta em sistemas <strong>Linux</strong>. O único pré-requisito para ter o Eclipse em sua máquina, é ter o [JDK instalado](https://ramonsantos.github.io/blog/como-instalar-java-fedora/).
 
