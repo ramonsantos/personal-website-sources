@@ -21,32 +21,28 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: blog
 category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
 
 # Writing
-new_post_name: :year/:month/:title.md # File name of new posts
+new_post_name: :year/:month/:title.md
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false
+external_link: true
 filename_case: 1
 render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
 
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
+# Blog
+archive_generator:
+  per_page: 0
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -64,7 +60,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 
 # Themes
-theme: ruby-tuesday-theme
+theme: shine-on-you-crazy-diamond-theme
 
 # Deployment
 deploy:
@@ -73,17 +69,16 @@ deploy:
   branch: master
 
 # Minify
-asset_pipeline:
-  revisioning:
-    enable: false
-  clean_css:
-    enable: true
-  uglify_js:
-    enable: true
-  imagemin:
-    enable: true
-  html_minifier:
-    enable: true
 
-sitemap:
-  path: sitemap.xml
+
+# -------------------
+html_minifier:
+  enable: false
+  ignore_error: false
+
+css_minifier:
+  enable: true
+
+js_minifier:
+  enable: true
+  mangle: true
